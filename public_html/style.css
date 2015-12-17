@@ -47,3 +47,25 @@ a:active{
     border: solid blue 4px;
 }
 
+#wrapper2{
+    background-color: white;
+    width: 1250px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 28px 30px;
+    height: 1200px;
+    border: solid blue 4px;
+}
+
+
+#wrapper3{
+    background-color: white;
+    width: 1250px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 28px 30px;
+    height: 1200px;
+    border: solid blue 4px;
+}
+
+
