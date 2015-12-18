@@ -3,12 +3,12 @@ body{
 }
 
 #wrapper{
-    width: 1250px;
+    width: 1259px;
     background-color: white;
     margin: auto;
     border-radius: 15px;
     padding: 28px 30px;
-    height: 590px;
+    height: 592px;
     border: solid blue 4px;
 }
 
@@ -17,9 +17,10 @@ nav>a{
     background-color: blue;
     border-radius: 10px;
     padding: 10px;
-    margin: 0px 10px;
+    margin: 0px 2.9px;
     display: inline-block;
     font-weight: bold;
+   
 }
 
 #aboutus{
@@ -30,6 +31,7 @@ nav>a{
 a:hover{
     color:black;
     font-weight: bold;
+    font-style: italic;
 }
 
 a:active{
@@ -37,24 +39,78 @@ a:active{
 }
 
 
+
 #wrapper1{
     background-color: white;
     width: 1250px;
     margin: auto;
     border-radius: 15px;
-    padding: 28px 30px;
-    height: 1200px;
+    padding: 45px 30px;
+    height:550px;
     border: solid blue 4px;
 }
 
-#wrapper2{
+#table{
+    color: blue;
+    font-weight: bold;
+    padding: 140px 450px;
+    width: 400px;
+    height: 260px;
+     
+}
+
+#welcome{
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 120px;
+    display: inline-block;
+    
+}
+
+
+#wrapper2{         
     background-color: white;
     width: 1250px;
     margin: auto;
     border-radius: 15px;
     padding: 28px 30px;
-    height: 1200px;
+    height: 700px;
     border: solid blue 4px;
+}
+
+#content1{
+    float: left;
+    width: 350px;
+    height: 480px;
+    right: 0px;
+}
+
+
+#content11{
+    color: blue;
+    font-size: 20px;
+    text-align: justify;
+    right: 200px;
+    margin-left: 300px;
+    padding: 30px;
+    border:double blue 3px;
+    border-radius: 10px;
+}
+
+
+#content111{
+    color: blue;
+    font-size: 20px;
+    text-align: justify;
+    right: 100px;
+    margin-left: 300px;
+    padding:30px;
+    border:double blue 3px;
+    margin-top: -195px;
+    border-radius: 10px;
 }
 
 
@@ -67,5 +123,20 @@ a:active{
     height: 1200px;
     border: solid blue 4px;
 }
+
+#wrapper4{
+    background-color: white;
+    width: 1250px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 28px 30px;
+    height:2000px;
+    border: solid blue 4px;
+}
+
+
+
+
+
 
 
