@@ -46,7 +46,7 @@ a:active{
     margin: auto;
     border-radius: 15px;
     padding: 45px 30px;
-    height:550px;
+    height:650px;
     border: solid blue 4px;
 }
 
@@ -82,7 +82,7 @@ a:active{
     border: solid blue 4px;
 }
 
-#content1{
+#content1{                        
     float: left;
     width: 350px;
     height: 480px;
@@ -97,7 +97,7 @@ a:active{
     right: 200px;
     margin-left: 300px;
     padding: 30px;
-    border:double blue 3px;
+    border:double blue 5px;
     border-radius: 10px;
 }
 
@@ -109,10 +109,11 @@ a:active{
     right: 100px;
     margin-left: 300px;
     padding:30px;
-    border:double blue 3px;
+    border:double blue 5px;
     margin-top: -195px;
     border-radius: 10px;
 }
+
 
 
 #wrapper3{
@@ -121,9 +122,49 @@ a:active{
     margin: auto;
     border-radius: 15px;
     padding: 28px 30px;
-    height: 1200px;
+    height: 700px;
     border: solid blue 4px;
 }
+
+#laptops{
+    
+    padding: 25px;
+    margin-top: 20px;
+    margin-right: -10px;
+
+}
+
+#content3a{
+    color: blue;
+    font-size: 20px;
+    text-align: justify;
+    right: 90px;
+    margin-left: 290px;
+    padding:30px;
+    border:double blue 5px;
+    margin-top: -190px;
+    border-radius: 10px;
+}
+
+#tvs{      
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: -10px;
+}
+
+#content3b{
+    color: blue;
+    font-size: 20px;
+    text-align: justify;
+    right: 90px;
+    margin-left: 320px;
+    padding:20px;
+    border:double blue 5px;
+    margin-top: -230px;
+    border-radius: 10px;
+}
+
+
 
 #wrapper4{
     background-color: white;
@@ -131,10 +172,34 @@ a:active{
     margin: auto;
     border-radius: 15px;
     padding: 28px 30px;
-    height:2000px;
+    height:700px;
     border: solid blue 4px;
 }
 
+#content4a{
+    color: blue;
+    font-size: 20px;
+    text-align: justify;
+    right: 200px;
+    margin-left: 300px;
+    margin-top: -160px;
+    padding: 30px;
+    border:double blue 5px;
+    border-radius: 10px;
+}
+
+
+#content4b{
+    color: blue;
+    font-size: 20px;
+    text-align: justify;
+    right: 200px;
+    margin-left: 300px;
+    margin-top: -200px;
+    padding: 30px;
+    border:double blue 5px;
+    border-radius: 10px;
+}
 
 
 
