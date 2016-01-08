@@ -5,8 +5,16 @@
         <title>Contact Us</title>
         <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet"/>
+        <script src="jquery-2.1.3.js"></script>
+        <script>
+            $(document).ready(function(){
+              $("tr:odd()").css("background-color","grey");
+               $("tr:even()").css("background-color","grey");
+            });
+        </script>
+
     </head>
-    <body>
+    <body onload="changeStyle()">
         <div id="wrapper1">
             <nav id="menu1">
                 <a href="">Contact Us</a>
@@ -15,8 +23,11 @@
                 <a href="laptops&tvs.html">Laptops & Tvs</a>
                 <a href="microwaves&fridges.html">Microwaves & Fridges</a>
             </nav>
+            
 
             <div id="welcome"> WELCOME ! </div>
+            <a href="http://www.samsung.com/us/business/contact_us.html" target="_blank">
+            
 
             <div id="table">
 

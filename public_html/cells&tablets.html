@@ -5,10 +5,25 @@
         <title>Cells & Tablets</title>
         <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet"/>
-    </head>
+        <script src="jquery-2.1.3.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(":cells").change(function() {
+                    $(":text").val($("img").attr('src'));
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $(":tablets").change(function() {
+                    $(":text").val($("img").attr('src'));
+                });
+            });
+        </script>
+
+    </head> 
     <body>
         <div id="wrapper2">
-
             <nav id="menu2">
                 <a href="">Cells & Tablets</a>
                 <a href="index.html" id="aboutus">About Us</a>
@@ -18,8 +33,14 @@
             </nav>
 
             <div id="cells"/>
-            <a href="http://www.samsung.com" target="_blank">
-                <img src="images-projet/tablets&cells/isCADSV7VV.jpg" alt="cells logo" height="250" width="250"/>        
+            <a href="http://www.samsung.com" target="_blank"> 
+                <br><br>
+                <img  alt="cells logo" height="250" width="250"/> 
+
+                <br><br>
+
+                <label><input type="radio" name="webcells"
+                              onchange="$('img').attr('src', 'images-projet/tablets&cells/isCADSV7VV.jpg')"/>CELLS</label>
             </a>
         </div>
         <p id="content111" />
@@ -32,13 +53,19 @@
         a stylus and the first version of the Galaxy Gear smartwatch, 
         with later versions dropping the Galaxy branding.</p>
 
+
     <br><br><br>
 
 
     <div id="content1"/>
 
     <a href="http://www.samsung.com/levant/consumer/mobile-devices/tablets" target="_blank">     
-        <img src="images-projet/tablets&cells/isCA3ECCU2.jpg" alt="cells logo" height="250" width="250"/>
+        <img  alt="tablets logo" height="250" width="250"/>
+        <br><br>
+
+        <label><input type="radio" name="webtablets" 
+                      onchange="$('img').attr('src', 'images-projet/tablets&cells/isCA3ECCU2.jpg')"/>TABLETS</label>
+
     </a>
 
 </div>
@@ -61,6 +88,9 @@ including models with 7.7, 8.9 and 10.1-inch displays.
 The Wi-Fi versions of the tablet all include a 
 GPS system whilst the 3G/4G tablets include cellular 
 capability as well.</p>
+
+
+
 
 
 

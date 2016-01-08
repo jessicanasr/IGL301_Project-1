@@ -28,11 +28,7 @@ nav>a{
     margin-right: 600px;
 }
 
-a:hover{
-    color:black;
-    font-weight: bold;
-    font-style: italic;
-}
+
 
 a:active{
     color:grey;
@@ -110,7 +106,7 @@ a:active{
     margin-left: 300px;
     padding:30px;
     border:double blue 5px;
-    margin-top: -195px;
+    margin-top: -245px;
     border-radius: 10px;
 }
 
