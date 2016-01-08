@@ -6,6 +6,20 @@
         <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet"/>
         <script src="jquery-2.1.3.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(":laptops").change(function() {
+                    $(":text").val($("img").attr('src'));
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $(":tvs").change(function() {
+                    $(":text").val($("img").attr('src'));
+                });
+            });
+        </script>
 
     </head>
     <body>
@@ -20,7 +34,10 @@
 
             <div id="laptops"/>
             <a href="http://www.cnet.com/topics/laptops/products/samsung/" target="_blank">
-                <img src="images-projet/laptops&tvs/samsung-ativ-book-9-plus-bigcl.jpg" alt="laptops logo" height="200" width="250"/>        
+                <img  height="200" width="250"/>   
+                <br><br>
+                <label><input type="radio" name="weblaptops"
+                              onchange="$('img').attr('src', 'images-projet/laptops&tvs/samsung-ativ-book-9-plus-bigcl.jpg')"/>LAPTOPS</label>
             </a>
         </div>
         <p id="content3a" />
@@ -35,7 +52,10 @@
     <div id="tvs"/>
 
     <a href="http://www.samsung.com/us/video/tvs" target="_blank">     
-        <img src="images-projet/laptops&tvs/is_1.jpg" alt="tvs logo" height="250" width="250"/>
+        <img  height="250" width="250"/>
+        <br><br>
+        <label><input type="radio" name="webtvs"
+                      onchange="$('img').attr('src', 'images-projet/laptops&tvs/is_1.jpg')"/>TVS</label>
     </a>
 
 </div>

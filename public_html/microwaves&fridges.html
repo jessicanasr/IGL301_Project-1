@@ -6,6 +6,20 @@
         <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet"/>
         <script src="jquery-2.1.3.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(":microwaves").change(function() {
+                    $(":text").val($("img").attr('src'));
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $("fridges").change(function() {
+                    $(":text").val($("img").attr('src'));
+                });
+            });
+        </script>
 
     </head>
     <body>
@@ -22,7 +36,10 @@
 
             <div id="microwaves"/>
             <a href="http://www.samsung.com/us/appliances/microwaves" target="_blank">  
-                <img src="images-projet/microwaves&fridges/233182565.jpg" alt="cells logo" height="200" width="220"/>
+                <img  height="200" width="220"/>
+                <br><br>
+                <label><input type="radio" name="webmicrowaves"
+                              onchange="$('img').attr('src', 'images-projet/microwaves&fridges/233182565.jpg')"/>MICROWAVES</label>
             </a>
 
 
@@ -38,7 +55,10 @@
 
     <div id="fridges"/>
     <a href="http://www.thegoodguys.com.au/samsung/fridges-and-freezers" target="_blank">
-        <img src="images-projet/microwaves&fridges/is (14).jpg" alt="cells logo" height="200" width="220"/>        
+        <img height="200" width="220"/>
+        <br><br>
+        <label><input type="radio" name="webfridges"
+                      onchange="$('img').attr('src', 'images-projet/microwaves&fridges/is (14).jpg')"/>FRIDGES</label>
     </a>
 
 </div>

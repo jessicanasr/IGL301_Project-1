@@ -74,7 +74,7 @@ a:active{
     margin: auto;
     border-radius: 15px;
     padding: 28px 30px;
-    height: 700px;
+    height: 900px;
     border: solid blue 4px;
 }
 
@@ -138,7 +138,7 @@ a:active{
     margin-left: 290px;
     padding:30px;
     border:double blue 5px;
-    margin-top: -190px;
+    margin-top: -240px;
     border-radius: 10px;
 }
 
@@ -156,7 +156,7 @@ a:active{
     margin-left: 320px;
     padding:20px;
     border:double blue 5px;
-    margin-top: -230px;
+    margin-top: -260px;
     border-radius: 10px;
 }
 
@@ -178,7 +178,7 @@ a:active{
     text-align: justify;
     right: 200px;
     margin-left: 300px;
-    margin-top: -160px;
+    margin-top: -210px;
     padding: 30px;
     border:double blue 5px;
     border-radius: 10px;
@@ -191,7 +191,7 @@ a:active{
     text-align: justify;
     right: 200px;
     margin-left: 300px;
-    margin-top: -200px;
+    margin-top: -225px;
     padding: 30px;
     border:double blue 5px;
     border-radius: 10px;
