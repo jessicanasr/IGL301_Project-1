@@ -19,12 +19,12 @@
                         val(window.prompt("Enter your name"));
                 $(":text:eq(1)").
                         val(window.prompt("Enter your last name"));
-                $(":text:eq(2)").
+               $(":text:eq(2)").
                         val(window.prompt("Enter your email address"));
                 $(":button").click(function() {
                     window.alert($(":text:ep(0)").val() +
                             " " + $(":text:ep(1)").val() +
-                            " " + $(":text:eq(2)").val());
+                            " " + $(":text:ep(2)").val());
 
                 });
             });
@@ -79,11 +79,12 @@
 
 
                         <p>      FirstName:<input type="text" 
-                                                  placeholder="First Name"/>
-                            LastName:<input type="text"
-                                            placeholder="Last Name"/>
-                            EmailAddress:<input type="text"
+                                                  placeholder="First Name"/> </p>
+                        <p> LastName:<input type="text"
+                                            placeholder="Last Name"/></p>
+                        <p> EmailAddress:<input type="text"
                                             placeholder="Email Address"/></p>
+                           
                     </table>
                 </div>
         </div>

@@ -11,7 +11,29 @@
 
     </head>
 
-    <body onload="getName()"><h1 id="welcome"> </h1>>
+    <body onload="getName()">
+        <p id="welcome">Welcome</p>
+        <script>
+            var coloring;
+            function changeColor(){
+               coloring = window.setInterval(getColor, 2000);
+            }
+            function getColor(){
+                var color;
+                var rnd = Math.random();
+                if(rnd<0.34){
+                    color = "pink";
+                }else if(rnd<0.67){
+                    color = "red";
+                }else{
+                    color = "yellow";
+                    window.clearInterval(coloring);
+                }
+                document.getElementById("welcome").style.color 
+                = color;
+            }
+        </script>
+        <h1 id="welcome"> </h1>>
 
         <div id="wrapper">
             <p onmouseover="this.style.color = 'black'"></p>
