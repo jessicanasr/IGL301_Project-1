@@ -7,9 +7,26 @@
         <link href="style.css" rel="stylesheet"/>
         <script src="jquery-2.1.3.js"></script>
         <script>
-            $(document).ready(function(){
-              $("tr:odd()").css("background-color","grey");
-               $("tr:even()").css("background-color","grey");
+            $(document).ready(function() {
+                $("tr:odd()").css("background-color", "grey");
+                $("tr:even()").css("background-color", "grey");
+            });
+        </script>
+
+        <script>
+            $(document).ready(function() {
+                $(":text:eq(0)").
+                        val(window.prompt("Enter your name"));
+                $(":text:eq(1)").
+                        val(window.prompt("Enter your last name"));
+                $(":text:eq(2)").
+                        val(window.prompt("Enter your email address"));
+                $(":button").click(function() {
+                    window.alert($(":text:ep(0)").val() +
+                            " " + $(":text:ep(1)").val() +
+                            " " + $(":text:eq(2)").val());
+
+                });
             });
         </script>
 
@@ -23,45 +40,54 @@
                 <a href="laptops&tvs.html">Laptops & Tvs</a>
                 <a href="microwaves&fridges.html">Microwaves & Fridges</a>
             </nav>
-            
+
 
             <div id="welcome"> WELCOME ! </div>
             <a href="http://www.samsung.com/us/business/contact_us.html" target="_blank">
-            
-
-            <div id="table">
-
-                <table border="1">
-                    <thead>
-                    <td colspan="2"> <p style="text-align: center">CONTACT US</p></td>
 
 
-                    <tr>
-                        <th>PHONE NUMBER:</th>
-                        <th>01/884000</th>
-                    </tr>
-                    </thead> 
+                <div id="table">
 
-                    <tbody>
+                    <table border="1">
+                        <thead>
+                        <td colspan="2"> <p style="text-align: center">CONTACT US</p></td>
+
+
                         <tr>
-                            <td>EMAIL:</td>
-                            <td>president@sta.samsung.com</td>
+                            <th>PHONE NUMBER:</th>
+                            <th>01/884000</th>
                         </tr>
+                        </thead> 
 
-                        <tr>
-                        <tr>
-                            <td rowspan="3">LOCATION:</td>
-                            <td>Amaret Chalhoub,</td>
-                        </tr>
-                        <tr>
-                            <td>Beirut Lebanon,</td>
-                        </tr>
-                        <tr>
-                            <td>Samsung Building. </td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>EMAIL:</td>
+                                <td>president@sta.samsung.com</td>
+                            </tr>
 
-                </table>
-            </div>
+                            <tr>
+                            <tr>
+                                <td rowspan="3">LOCATION:</td>
+                                <td>Amaret Chalhoub,</td>
+                            </tr>
+                            <tr>
+                                <td>Beirut Lebanon,</td>
+                            </tr>
+                            <tr>
+                                <td>Samsung Building. </td>
+                            </tr>
+
+
+                        <p>      FirstName:<input type="text" 
+                                                  placeholder="First Name"/>
+                            LastName:<input type="text"
+                                            placeholder="Last Name"/>
+                            EmailAddress:<input type="text"
+                                            placeholder="Email Address"/></p>
+                    </table>
+                </div>
         </div>
+
+
     </body>
 </html>

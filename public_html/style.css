@@ -8,8 +8,13 @@ body{
     margin: auto;
     border-radius: 15px;
     padding: 28px 30px;
-    height: 592px;
+    height: 612px;
     border: solid blue 4px;
+}
+
+#h1{
+    font-weight: bold;
+    
 }
 
 nav>a{
@@ -42,7 +47,7 @@ a:active{
     margin: auto;
     border-radius: 15px;
     padding: 45px 30px;
-    height:650px;
+    height:950px;
     border: solid blue 4px;
 }
 
@@ -55,6 +60,7 @@ a:active{
     border-radius: 20px;
     margin-left: 230px;
 }
+
 
 #welcome{
     font-weight: bold;
