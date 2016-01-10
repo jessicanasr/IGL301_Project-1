@@ -26,6 +26,7 @@
         <div id="wrapper4">
             <nav id="menu4">
                 <a href="">Microwaves & Fridges</a>
+                <a href="welcome.html">Welcome</a>
                 <a href="index.html" id="aboutus">About Us</a>
                 <a href="contactus.html">Contact Us</a>
                 <a href="cells&tablets.html">Cells & Tablets</a>
@@ -38,8 +39,11 @@
             <a href="http://www.samsung.com/us/appliances/microwaves" target="_blank">  
                 <img  height="200" width="220"/>
                 <br><br>
-                <label><input type="radio" name="webmicrowaves"
-                              onchange="$('img').attr('src', 'images-projet/microwaves&fridges/233182565.jpg')"/>MICROWAVES</label>
+                <label><input name="webradios" id="microwaves"
+                              type="radio"  
+                              onchange="document.images[0].src = 'images-projet/microwaves&fridges/233182565.jpg'"/>
+                    MICROWAVES</label>
+                
             </a>
 
 
@@ -57,8 +61,11 @@
     <a href="http://www.thegoodguys.com.au/samsung/fridges-and-freezers" target="_blank">
         <img height="200" width="220"/>
         <br><br>
-        <label><input type="radio" name="webfridges"
-                      onchange="$('img').attr('src', 'images-projet/microwaves&fridges/is (14).jpg')"/>FRIDGES</label>
+        <label><input name="webradios" id="fridges"
+                              type="radio"  
+                              onchange="document.images[0].src = 'images-projet/microwaves&fridges/is (14).jpg'"/>
+                    FRIDGES</label>
+        
     </a>
 
 </div>

@@ -21,12 +21,13 @@
             });
         </script>
 
-        
+
     </head>
     <body>
         <div id="wrapper3">
             <nav id="menu3">
                 <a href="">Laptops & Tvs</a>
+                <a href="welcome.html">Welcome</a>
                 <a href="index.html" id="aboutus">About Us</a>
                 <a href="contactus.html">Contact Us</a>
                 <a href="cells&tablets.html">Cells & Tablets</a>
@@ -37,8 +38,11 @@
             <a href="http://www.cnet.com/topics/laptops/products/samsung/" target="_blank">
                 <img  height="200" width="250"/>   
                 <br><br>
-                <label><input type="radio" name="weblaptops"
-                              onchange="$('img').attr('src', 'images-projet/laptops&tvs/samsung-ativ-book-9-plus-bigcl.jpg')"/>LAPTOPS</label>
+                <label><input name="webradios" id="laptops"
+                              type="radio"  
+                              onchange="document.images[0].src = 'images-projet/laptops&tvs/samsung-ativ-book-9-plus-bigcl.jpg'"/>
+                    LAPTOPS</label>
+                
             </a>
         </div>
         <p id="content3a" />

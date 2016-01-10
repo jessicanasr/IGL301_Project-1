@@ -26,6 +26,7 @@
         <div id="wrapper2">
             <nav id="menu2">
                 <a href="">Cells & Tablets</a>
+                <a href="welcome.html">Welcome</a>
                 <a href="index.html" id="aboutus">About Us</a>
                 <a href="contactus.html">Contact Us</a>
                 <a href="laptops&tvs.html">Laptops & Tvs</a>
@@ -39,8 +40,12 @@
 
                 <br><br>
 
-                <label><input type="radio" name="webcells"
-                              onchange="$('img').attr('src', 'images-projet/tablets&cells/isCADSV7VV.jpg')"/>CELLS</label>
+                <label><input name="webradios" id="cells"
+                              type="radio"  
+                              onchange="document.images[0].src = 'images-projet/tablets&cells/isCADSV7VV.jpg'"/>
+                    CELLS</label>
+
+
             </a>
         </div>
         <p id="content111" />
@@ -62,6 +67,7 @@
     <a href="http://www.samsung.com/levant/consumer/mobile-devices/tablets" target="_blank">     
         <img   height="250" width="250"/>
         <br><br>
+
 
         <label><input type="radio" name="webtablets" 
                       onchange="$('img').attr('src', 'images-projet/tablets&cells/isCA3ECCU2.jpg')"/>TABLETS</label>

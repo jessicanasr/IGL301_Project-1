@@ -13,36 +13,19 @@
 
     <body onload="getName()">
         <p id="welcome">Welcome</p>
-        <script>
-            var coloring;
-            function changeColor(){
-               coloring = window.setInterval(getColor, 2000);
-            }
-            function getColor(){
-                var color;
-                var rnd = Math.random();
-                if(rnd<0.34){
-                    color = "pink";
-                }else if(rnd<0.67){
-                    color = "red";
-                }else{
-                    color = "yellow";
-                    window.clearInterval(coloring);
-                }
-                document.getElementById("welcome").style.color 
-                = color;
-            }
-        </script>
-        <h1 id="welcome"> </h1>>
+        
 
         <div id="wrapper">
             <p onmouseover="this.style.color = 'black'"></p>
             <nav id="menu">
+                
                 <a href="" id="aboutus">About Us</a>
+                <a href="welcome.html">Welcome</a>
                 <a href="contactus.html">Contact Us</a>
                 <a href="cells&tablets.html">Cells & Tablets</a>
                 <a href="laptops&tvs.html">Laptops & Tvs</a>
                 <a href="microwaves&fridges.html">Microwaves & Fridges</a>
+                
             </nav>
 
             <div id="img" >  

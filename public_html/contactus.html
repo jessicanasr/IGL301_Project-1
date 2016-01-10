@@ -19,7 +19,7 @@
                         val(window.prompt("Enter your name"));
                 $(":text:eq(1)").
                         val(window.prompt("Enter your last name"));
-               $(":text:eq(2)").
+                $(":text:eq(2)").
                         val(window.prompt("Enter your email address"));
                 $(":button").click(function() {
                     window.alert($(":text:ep(0)").val() +
@@ -28,18 +28,31 @@
 
                 });
             });
+
         </script>
+
 
     </head>
     <body onload="changeStyle()">
         <div id="wrapper1">
             <nav id="menu1">
                 <a href="">Contact Us</a>
+                <a href="welcome.html">Welcome</a>
                 <a href="index.html" id="aboutus">About Us</a>
                 <a href="cells&tablets.html">Cells & Tablets</a>
                 <a href="laptops&tvs.html">Laptops & Tvs</a>
                 <a href="microwaves&fridges.html">Microwaves & Fridges</a>
             </nav>
+
+            <div>
+                <p> FirstName:<input type="text" 
+                                     placeholder="First Name"/> </p>
+                <p> LastName:<input type="text"
+                                    placeholder="Last Name"/></p>
+                <p> EmailAddress:<input type="text"
+                                        placeholder="Email Address"/></p>
+
+            </div>
 
 
             <div id="welcome"> WELCOME ! </div>
@@ -78,17 +91,9 @@
                             </tr>
 
 
-                        <p>      FirstName:<input type="text" 
-                                                  placeholder="First Name"/> </p>
-                        <p> LastName:<input type="text"
-                                            placeholder="Last Name"/></p>
-                        <p> EmailAddress:<input type="text"
-                                            placeholder="Email Address"/></p>
-                           
                     </table>
                 </div>
         </div>
-
 
     </body>
 </html>
