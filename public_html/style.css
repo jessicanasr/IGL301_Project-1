@@ -3,7 +3,27 @@ body{
    
 }
 
+#wrapper5{
+    background-color: white;
+    width: 1220px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 38px 50px;
+    height:550px;
+    border: solid blue 4px;
+}
 
+#menu5{
+    color: white;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin:40px 10px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+  }
+  
 #wrapper{
     width: 1259px;
     background-color: white;
@@ -207,25 +227,5 @@ a:hover{
     border-radius: 10px;
 }
 
-#wrapper5{
-    background-color: white;
-    width: 1220px;
-    margin: auto;
-    border-radius: 15px;
-    padding: 38px 50px;
-    height:550px;
-    border: solid blue 4px;
-}
 
-
-#menu5{
-    color: white;
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    margin:40px 10px;
-    display: inline-block;
-    font-weight: bold;
-   right: 100px;
-  }
 
