@@ -9,7 +9,7 @@ body{
     background-color: white;
     margin: auto;
     border-radius: 15px;
-    padding: 28px 30px;
+    padding: 15px 28px;
     height: 612px;
     border: solid blue 4px;
 }
@@ -21,7 +21,7 @@ nav>a{
     background-color: blue;
     border-radius: 5px;
     padding: 10px;
-    margin: 1px -5.5px;
+    margin: -5px -5.5px;
     display: inline-block;
     font-weight: bold;
 
@@ -38,7 +38,9 @@ a:active{
     color:grey;
 }
 
-
+a:hover{
+    color:black;
+}
 
 #wrapper1{
     background-color: white;
@@ -46,18 +48,18 @@ a:active{
     margin: auto;
     border-radius: 15px;
     padding: 45px 30px;
-    height:950px;
+    height:750px;
     border: solid blue 4px;
 }
 
 #table{
     color: blue;
     font-weight: bold;
-    padding: 30px 230px;
+    padding: 1px 230px;
     width: 50px;
-    height: 190px;
-    border-radius: 20px;
-    margin-left: 230px;
+    height: 140px;
+    border-radius: 50px;
+    margin-left: 250px;
 }
 
 
@@ -65,8 +67,8 @@ a:active{
     font-weight: bold;
     color: white;
     background-color: blue;
-    border-radius: 10px;
-    padding: -50px;
+    border-radius: 5px;
+    padding: -100px;
     margin: 120px 550px;
     display: inline-block;
     font-size: 24.8px;
@@ -80,13 +82,15 @@ a:active{
     margin: auto;
     border-radius: 15px;
     padding: 28px 30px;
-    height: 900px;
+    height: 850px;
     border: solid blue 4px;
 }
 
+
+
 #content1{                        
     float: left;
-    width: 350px;
+    width: 320px;
     height: 480px;
     right: 0px;
 }
@@ -142,7 +146,7 @@ a:active{
     text-align: justify;
     right: 90px;
     margin-left: 290px;
-    padding:30px;
+    padding:20px;
     border:double blue 5px;
     margin-top: -240px;
     border-radius: 10px;
@@ -150,8 +154,8 @@ a:active{
 
 #tvs{      
     padding: 20px;
-    margin-top: 30px;
-    margin-right: -10px;
+    margin-top: -25px;
+    margin-right: -2px;
 }
 
 #content3b{
@@ -205,15 +209,23 @@ a:active{
 
 #wrapper5{
     background-color: white;
-    width: 1250px;
+    width: 1220px;
     margin: auto;
     border-radius: 15px;
     padding: 38px 50px;
-    height:350px;
+    height:550px;
     border: solid blue 4px;
 }
 
 
-
-
+#menu5{
+    color: white;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin:40px 10px;
+    display: inline-block;
+    font-weight: bold;
+   right: 100px;
+  }
 
